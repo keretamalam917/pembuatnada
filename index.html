@@ -3,56 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Toko Musik Serba Nada</title>
+  <title>Serba Nada Promo</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #e0f7fa, #fff);
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
       margin: 0;
       padding: 0;
-      text-align: center;
-    }
-
-    header {
-      background-color: #2c3e50;
-      padding: 30px;
-      color: white;
     }
 
     h1 {
       font-size: 32px;
-      margin-bottom: 10px;
+      margin-top: 30px;
     }
 
-    p {
-      font-size: 18px;
-      margin-top: 0;
-    }
-
-    .product-grid {
+    .gallery {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 40px 20px;
+      padding: 40px 10px;
+      gap: 20px;
     }
 
-    .product {
-      background: white;
-      margin: 15px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      width: 220px;
-      overflow: hidden;
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+      transition: transform 0.3s ease;
     }
 
-    .product img {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-    }
-
-    .product h3 {
-      margin: 10px 0 5px;
+    .gallery img:hover {
+      transform: scale(1.05);
     }
 
     .cta-button {
@@ -64,7 +47,7 @@
       font-size: 16px;
       text-decoration: none;
       transition: background 0.3s;
-      margin: 30px auto;
+      margin: 30px auto 60px;
       display: inline-block;
     }
 
@@ -75,28 +58,13 @@
 </head>
 <body>
 
-  <header>
-    <h1>🎶 Selamat Datang di Serba Nada</h1>
-    <p>Cari alat musik keren? Semua ada di sini, harga bersahabat!</p>
-  </header>
+  <h1>🔥 Pilih Promo Favoritmu</h1>
 
-  <div class="product-grid">
-    <div class="product">
-      <img src="https://i.ibb.co/G7CZb1H/gitar.jpg" alt="Gitar Akustik">
-      <h3>Gitar Akustik</h3>
-    </div>
-    <div class="product">
-      <img src="https://i.ibb.co/zrn7Npn/drum.jpg" alt="Drum Set">
-      <h3>Drum Elektrik</h3>
-    </div>
-    <div class="product">
-      <img src="https://i.ibb.co/ZYW3VTp/keyboard.jpg" alt="Keyboard Musik">
-      <h3>Keyboard Musik</h3>
-    </div>
-    <div class="product">
-      <img src="https://i.ibb.co/hcRPW9T/mic.jpg" alt="Microphone">
-      <h3>Microphone</h3>
-    </div>
+  <div class="gallery">
+    <img src="PAGE%201.jpg" alt="Akun Naga">
+    <img src="dewagg-1.jpg" alt="Hasil Gokil">
+    <img src="dewagg-2.jpg" alt="Meledak 100%">
+    <img src="Dewagg_Jangancuma_1080x1080.jpg" alt="Jangan Cuma Pendengar">
   </div>
 
   <a href="http://bajuku.art/pembuatnada" class="cta-button">Akun Premium</a>
